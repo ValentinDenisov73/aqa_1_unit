@@ -23,7 +23,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual,expected);
     }
     @Test
-    public void shouldNotRemainIf1000() {
+    public void shouldNotRemainIfEquals1000() {
         int amount = 1000;
         int expected = 0;
         CashbackHackService cashbackHackService = new CashbackHackService();
