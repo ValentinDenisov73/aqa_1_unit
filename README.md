@@ -1,3 +1,1 @@
-## Задача №1: CashBackHacker
-
-- Часть 2. JUnit4
+## Задача №2: JUnit5 и legacy
