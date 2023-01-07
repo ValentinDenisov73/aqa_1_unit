@@ -11,7 +11,7 @@ public class CashbackHackServiceTest {
         int expected = 100;
         CashbackHackService cashbackHackService = new CashbackHackService();
         int actual = cashbackHackService.remain(amount);
-        assertEquals(actual,expected);
+        assertEquals(expected,actual);
     }
     @Test
     public void shouldRemainIfMoreThan1000() {
@@ -19,7 +19,7 @@ public class CashbackHackServiceTest {
         int expected = 900;
         CashbackHackService cashbackHackService = new CashbackHackService();
         int actual = cashbackHackService.remain(amount);
-        assertEquals(actual,expected);
+        assertEquals(expected,actual);
     }
     @Test
     public void shouldNotRemainIfEquals1000() {
@@ -27,6 +27,6 @@ public class CashbackHackServiceTest {
         int expected = 0;
         CashbackHackService cashbackHackService = new CashbackHackService();
         int actual = cashbackHackService.remain(amount);
-        assertEquals(actual,expected);
+        assertEquals(expected,actual);
     }
 }
